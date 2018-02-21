@@ -1,0 +1,28 @@
+.banner-image {
+  height: 70vh;
+  background-image: url('../img/doglake.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 65%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.banner-image h1 {
+  text-shadow: 3px 3px #333333;
+}
+.banner-image .lead {
+  text-shadow: 1px 1px #333333;
+}
+
+#credit {
+  display: block;
+  position: absolute;
+  bottom: .5em;
+  right: .5em;
+  text-shadow: none;
+  color: white;
+}
