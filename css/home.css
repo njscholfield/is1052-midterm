@@ -17,6 +17,73 @@
 .banner-image .lead {
   text-shadow: 1px 1px #333333;
 }
+.display-4 {
+  font-size: 3.5em;
+  color: var(--blue);
+}
+.lead {
+  font-size: 1.25rem;
+}
+
+.box {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.displayText {
+  font-size: 1.5em;
+}
+.display-icon {
+  height: 10em;
+  margin-bottom: 1em;
+}
+.vertically-center {
+  /* min-height: 11em; */
+  display: flex;
+  align-items: center;
+}
+
+
+.container {
+  padding: 0 1em;
+}
+.row {
+  display: flex;
+}
+
+.col-sm-10 {
+  min-height: 10em;
+  flex-basis: 0;
+  flex-grow: 10;
+}
+.col-sm-2 {
+  min-height: 10em;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.order-sm-1 {
+  order: 1;
+}
+.order-sm-2 {
+  order: 2;
+}
+
+@media (max-width: 576px) {
+  .display-icon {
+    height: 8em;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col-sm-2 {
+    order: 1;
+  }
+}
+
+footer {
+  background: #333;
+  padding: 1em;
+  color: white;
+}
 
 #credit {
   display: block;
