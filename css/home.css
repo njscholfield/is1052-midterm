@@ -41,11 +41,6 @@
   display: flex;
   align-items: center;
 }
-
-
-.container {
-  padding: 0 1em;
-}
 .row {
   display: flex;
 }
