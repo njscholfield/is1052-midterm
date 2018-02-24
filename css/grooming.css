@@ -1,24 +1,32 @@
 body {
   padding-top: 3.8rem;
 }
+
 section {
   height: calc(90vh - 3.8rem);
   padding: 1rem;
-  background-image: url('/img/doglake.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   display: flex;
   justify-content: flex-end;
+  text-align: right;
   align-items: center;
   box-sizing: border-box;
-  color: white;
+  color: black;
+}
+section h1 {
+  font-size: 2.5rem;
+  color: var(--blue);
   text-shadow: 2px 2px black;
 }
 
-#two,
-#four {
-  background-image: url('/img/food.jpg');
+section:nth-child(odd) {
   justify-content: flex-start;
+  text-align: left;
+}
+
+#bath {
+  background-image: url('/img/grooming/bath.jpg');
 }
 
 .navbar {
