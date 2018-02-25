@@ -73,7 +73,6 @@ body {
   padding-left: 0;
   margin: 0;
   list-style: none;
-  flex-direction: row;
 }
 .nav li {
   padding: .5em;
@@ -84,6 +83,17 @@ body {
 }
 .nav .active {
   color: var(--blue);
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .jumbotron {
