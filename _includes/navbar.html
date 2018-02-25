@@ -6,10 +6,10 @@
   <transition name="expand">
     <div v-show="collapsed">
       <ul class="nav">
-        <li><a :class="{'active': isCurrentPage('boarding')}" href="/boarding/">Boarding</a></li>
-        <li><a :class="{'active': isCurrentPage('products')}" href="/products/">Products</a></li>
-        <li><a :class="{'active': isCurrentPage('grooming')}" href="/grooming/">Grooming</a></li>
-        <li><a :class="{'active': isCurrentPage('contact')}" href="/contact/">Contact</a></li>
+        <li><a class="{% if page.title == 'Boarding' %}active{% endif %}" href="/boarding/">Boarding</a></li>
+        <li><a class="{% if page.title == 'Products' %}active{% endif %}" href="/products/">Products</a></li>
+        <li><a class="{% if page.title == 'Grooming' %}active{% endif %}" href="/grooming/">Grooming</a></li>
+        <li><a class="{% if page.title == 'Contact Us' %}active{% endif %}" href="/contact/">Contact</a></li>
       </ul>
     </div>
   </transition>
