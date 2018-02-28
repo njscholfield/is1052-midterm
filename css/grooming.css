@@ -1,12 +1,10 @@
-body {
-  padding-top: 3.8rem;
-}
-
+---
+---
 section {
   height: calc(90vh - 3.8rem);
   padding: 1rem;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   display: flex;
   justify-content: flex-end;
   text-align: right;
@@ -19,6 +17,12 @@ section h2 {
   color: var(--blue);
   text-shadow: 2px 2px black;
 }
+section p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: white;
+  text-shadow: 1px 1px black;
+}
 
 section:nth-child(odd) {
   justify-content: flex-start;
@@ -26,11 +30,17 @@ section:nth-child(odd) {
 }
 
 #bath {
-  background-image: url('/img/grooming/bath.jpg');
+  background-image: url('{{ site.url }}/img/grooming/bath.jpg');
 }
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
+#haircut {
+  background-image: url('{{ site.url }}/img/grooming/haircut.jpg');
+}
+#toenails {
+  background-image: url('{{ site.url }}/img/grooming/toenails.jpg');
+  background-position: center;
+  transform: scaleX(-1);
+  justify-content: flex-end;
+}
+#toenails div {
+  transform: scaleX(-1);
 }

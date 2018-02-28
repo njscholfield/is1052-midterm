@@ -6,7 +6,12 @@ permalink: /grooming/
 <html>
   <head>
     {% include head.html %}
-    <link rel="stylesheet" href="/css/grooming.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/grooming.css">
+    <style>
+      section {
+        background-attachment: fixed;
+      }
+    </style>
   </head>
   <body>
     {% include navbar.html %}
@@ -34,17 +39,10 @@ permalink: /grooming/
         <p>This is some placeholder text to see the layout of the stuff and whatever</p>
       </div>
     </section>
-    <section id="four">
-      <div>
-        <h2>Grooming Services</h2>
-        <p>This is some placeholder text to see the layout of the stuff and whatever</p>
+    <footer>
+      <div class="container">
+        <p>The images used on this website are from <a href="https://unsplash.com/collections/1715352/waggin-wagon-pet-boarding" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
       </div>
-    </section>
-    <section id="five">
-      <div>
-        <h2>Grooming Services</h2>
-        <p>This is some placeholder text to see the layout of the stuff and whatever</p>
-      </div>
-    </section>
+    </footer>
   </body>
 </html>

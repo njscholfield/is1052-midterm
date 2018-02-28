@@ -33,19 +33,6 @@ body {
   font-family: 'Luckiest Guy', sans-serif;
   padding-top: 0.5em;
 }
-
-/* navbar transitions */
-.expand-enter-active, .expand-leave-active {
-  transition: height .5s;
-  overflow-y: hidden;
-}
-.expand-enter-active, .expand-leave-active {
-  height: 160px;
-}
-.expand-enter, .expand-leave-to {
-  height: 0;
-}
-
 .navbar {
   position: relative;
   display: flex;
@@ -98,7 +85,6 @@ body {
 
 .jumbotron {
   background: linear-gradient(to right, #00b09b, #96c93d);
-  /* background: linear-gradient(to right, var(--green), var(--lgreen)); */
   color: white;
   height: 40vh;
   display: flex;
@@ -137,4 +123,10 @@ body {
 .jumbotron p {
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+footer {
+  background: #333;
+  padding: 1em;
+  color: white;
 }
