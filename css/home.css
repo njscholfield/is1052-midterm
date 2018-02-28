@@ -1,6 +1,8 @@
+---
+---
 .banner-image {
   height: 70vh;
-  background-image: url('../img/doglake.jpg');
+  background-image: url('{{ site.url }}/img/doglake.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: 65%;
@@ -37,12 +39,8 @@
   margin-bottom: 1em;
 }
 .vertically-center {
-  /* min-height: 11em; */
   display: flex;
   align-items: center;
-}
-.row {
-  display: flex;
 }
 
 .col-sm-10 {
@@ -72,12 +70,6 @@
   .col-sm-2 {
     order: 1;
   }
-}
-
-footer {
-  background: #333;
-  padding: 1em;
-  color: white;
 }
 
 #credit {

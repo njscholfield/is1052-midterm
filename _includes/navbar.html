@@ -1,11 +1,11 @@
 <nav class="navbar" id="navbar">
-  <a class="navbar-brand display-font" href="/">Waggin' Wagon</a>
+  <a class="navbar-brand display-font" href="{{ site.url }}">Waggin' Wagon</a>
   <div class="nav-container">
     <ul class="nav navbar-nav">
-      <li><a class="{% if page.title == 'Boarding' %}active{% endif %}" href="/boarding/">Boarding</a></li>
-      <li><a class="{% if page.title == 'Products' %}active{% endif %}" href="/products/">Products</a></li>
-      <li><a class="{% if page.title == 'Grooming' %}active{% endif %}" href="/grooming/">Grooming</a></li>
-      <li><a class="{% if page.title == 'Contact Us' %}active{% endif %}" href="/contact/">Contact</a></li>
+      <li><a class="{% if page.title == 'Boarding' %}active{% endif %}" href="{{ site.url }}/boarding/">Boarding</a></li>
+      <li><a class="{% if page.title == 'Products' %}active{% endif %}" href="{{ site.url }}/products/">Products</a></li>
+      <li><a class="{% if page.title == 'Grooming' %}active{% endif %}" href="{{ site.url }}/grooming/">Grooming</a></li>
+      <li><a class="{% if page.title == 'Contact Us' %}active{% endif %}" href="{{ site.url }}/contact/">Contact</a></li>
     </ul>
     <ul class="nav navbar-nav">
       <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
