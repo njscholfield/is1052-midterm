@@ -1,7 +1,7 @@
 ---
 ---
 section {
-  height: calc(90vh - 3.8rem);
+  height: calc(100vh - 5.125rem);
   padding: 1rem;
   background-size: cover;
   background-attachment: fixed;
@@ -31,7 +31,6 @@ section:nth-child(odd) {
 .price {
   font-weight: bold;
   color: var(--green);
-  /* background-color: white; */
 }
 
 section div {
