@@ -129,6 +129,13 @@ body {
 
 footer {
   background: #333;
-  padding: 1em;
+  padding: .5rem 1rem;
   color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+footer h4 {
+  text-align: right;
+  /* margin: 1rem; */
 }

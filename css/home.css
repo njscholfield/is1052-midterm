@@ -71,12 +71,3 @@
     order: 1;
   }
 }
-
-#credit {
-  display: block;
-  position: absolute;
-  bottom: .5em;
-  right: .5em;
-  text-shadow: none;
-  color: white;
-}
