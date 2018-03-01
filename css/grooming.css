@@ -10,23 +10,41 @@ section {
   text-align: right;
   align-items: center;
   box-sizing: border-box;
-  color: black;
+  color: var(--black);
 }
 section h2 {
   font-size: 2.5rem;
   color: var(--blue);
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px var(--black);
 }
 section p {
   font-size: 1.25rem;
   font-weight: 300;
-  color: white;
-  text-shadow: 1px 1px black;
+  color: var(--black);
 }
 
 section:nth-child(odd) {
   justify-content: flex-start;
   text-align: left;
+}
+
+.price {
+  font-weight: bold;
+  color: var(--green);
+  /* background-color: white; */
+}
+
+section div {
+  padding: 0 1rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 2rem;
+  max-width: 50%;
+}
+
+@media(max-width: 576px) {
+  section div {
+    max-width: 100%;
+  }
 }
 
 #bath {
