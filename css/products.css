@@ -1,7 +1,7 @@
 ---
 ---
 .full-screen {
-  height: calc(100vh - 3.8rem);
+  height: calc(70vh - 3.8rem);
   margin: 0;
   padding: 0;
   display: flex;
@@ -25,6 +25,10 @@
   .full-screen {
     flex-direction: column;
   }
+}
+
+.jumbotron {
+  height: 30vh;
 }
 
 #food {
