@@ -2,6 +2,7 @@
   <a class="navbar-brand display-font" href="{{ site.url }}">Waggin' Wagon</a>
   <div class="nav-container">
     <ul class="nav navbar-nav">
+      <li><a class="{% if page.title == 'Home' %}active{% endif %}" href="{{ site.url }}"><span class="fas fa-home" title="home"></span></li>
       <li><a class="{% if page.title == 'Boarding' %}active{% endif %}" href="{{ site.url }}/boarding/">Boarding</a></li>
       <li><a class="{% if page.title == 'Products' %}active{% endif %}" href="{{ site.url }}/products/">Products</a></li>
       <li><a class="{% if page.title == 'Grooming' %}active{% endif %}" href="{{ site.url }}/grooming/">Grooming</a></li>
