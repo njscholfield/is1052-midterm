@@ -1,6 +1,6 @@
 # is1052-midterm
 
-This site was for a midterm project where we had to make a website for a fictional business. Since it was just a class project, not all the links are real. Also, not everything is responsive for different screen sizes (although most is) because that was not a requirement of the project and we were not allowed to use Bootstrap.
+This site was my midterm project for my User-Centered Design class where we had to make a website for a fictional business. Since it was just a class project, not all the links are real. Also, not everything is responsive for different screen sizes (although most is) because that was not a requirement of the project and we were not allowed to use Bootstrap.
 
 #### Stuff I used:
 - [Google Fonts](https://fonts.google.com)
