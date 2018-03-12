@@ -12,7 +12,7 @@ This site was for a midterm project where we had to make a website for a fiction
   - [Clothes](https://thenounproject.com/search/?q=clothes&i=36271)
   - [Pet Groomer](https://thenounproject.com/search/?q=grooming&i=1234134)
 - [Unsplash](https://unsplash.com)
-  - see the specific images I used [here](https://unsplash.com/collections/1715352/waggin-wagon-pet-boarding)
+  - [these](https://unsplash.com/collections/1715352/waggin-wagon-pet-boarding) are the images I used
 - [Google Maps API](https://developers.google.com/maps/documentation/embed/)
 - [Jekyll](https://jekyllrb.com)
 - [uiGradients](https://uigradients.com/#Ohhappiness)
